@@ -1,0 +1,153 @@
+body {
+    background-image: url(sky.jpg);
+}
+
+.pete {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: solid black 3px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.pete:hover{
+    transform: scale(1.2);
+}
+#nav-bar, #main-body {
+    display: flex;
+    justify-content: space-around;
+}
+#pete2 {
+    border: solid black 3px;
+    border-radius: 50%;
+    transition: all .5s;
+    margin-left: 275px;
+}
+#pete2:hover {
+    transform: scale(1.2);
+}
+#home {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    transition: all .5s;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#home:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+button {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    transition: all .5s;
+}
+
+button:hover, #youtubebutton:hover, #tomcatbutton:hover, #clickherebutton:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+.main-header {
+    text-align: center;
+    color:blue
+}
+h2 {
+    text-align: center;
+}
+
+.pilot, .ladiesman {
+    border: 2px solid blue;
+    border-width: 5px;
+    width: 550px;
+    padding: 20px;
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter, #facebook {
+    width: 50%;
+    margin-top: 40px;
+}
+
+#twitter:hover, #facebook:hover {
+    opacity: 0.6;
+}
+#youtubebutton {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 239px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+#accomplist {
+    margin-left: 100px;
+    line-height: 400%;
+}
+
+#tomcatbutton {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 277px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+#clickherebutton {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    margin-left: 10px;
+    transition: all .5s;
+}
